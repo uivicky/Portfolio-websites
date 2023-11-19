@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../vicky-logo.jpeg" />
+    <title>Portfolio-2</title>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-- Google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header section -->
+    <header>
+        <div>
+            <a href="#" class="logo"><span>V</span>icky</a>
+        </div>
+
+        <div>
+            <ul class="navbar">
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact</a></li>
+
+
+            </ul>
+        </div>
+
+        <div class="menu-btn">
+            <span>INTRO</span>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+
+
+    <!-- home section -->
+    <section class="home">
+        <div class="home-text">
+            <span class="title">Ui Developer</span>
+            <h1>Developer name</h1>
+            <p>Hi, My name is Vicky and I am a passionate
+                <span id="element"></span>
+            </p>
+            <p>I'm a designer, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos ipsa deleniti ad
+                quod eum architecto consectetur quo explicabo perspiciatis qui debitis doloremque, dolorem libero
+            </p>
+            <div class="main-btn">
+                <a href="#" class="btn">Download CV</a>
+                <a href="#" class="btn two">Hire Me Now</a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="./images/home.png" alt="" class="">
+        </div>
+    </section>
+
+
+
+    <div class="share">
+        <p>Check out my:</p>
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-github'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+        </div>
+    </div>
+
+
+    <!-- for content scroll animate -> https://scrollrevealis.org -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+    <!-- Text Retyping Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Ui developer', 'web developer', 'video editor', 'Graphic Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+    <!-- Js file link -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
